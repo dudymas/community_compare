@@ -1,0 +1,30 @@
+
+body {
+    background-color: #F9F8F0;
+}
+
+div.tile {
+    margin: 0.5em 1em 0.5em 1em;
+    max-width: 30em;
+    float: left;
+    background-color: #D0D7D0;
+}
+
+div.header.tile {
+    border: inherit;
+    max-width: inherit;
+    width: 80%;
+    font-size: 18pt;
+    margin: 0.5em;
+    padding: 2em;
+}
+
+div.subheader {
+    padding: 0.5em;
+    max-width: 15em;
+}
+
+div.subheader + img {
+    padding: 1em;
+    margin: 0.5em;
+}
